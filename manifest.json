@@ -1,0 +1,48 @@
+{
+  "manifest_version": 2,
+  "name": "FxSup Maps collection 地图信息收集",
+  "version": "0.1",
+  "description": "Maps search business address collection is exported as CSV.搜索地图商家信息收集导出为CSV，支持GOOGLE地图与百度地图。",
+  "default_locale": "en",
+  "homepage_url": "https://www.baidu.com",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "96": "images/icon-96.png",
+    "128": "images/icon-128.png"
+  },
+  "browser_action": {
+	"default_popup": "html/__MSG_PageFilePopup__",
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png",
+      "96": "images/icon-96.png",
+      "128": "images/icon-128.png"
+    },
+	"default_title": "__MSG_titlestartsnf__"
+  },
+  "background": {
+    "scripts": ["scripts/background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches":["https://www.google.com/maps/*","https://www.google.com.hk/maps/*","https://map.baidu.com/*"],
+      "js":["scripts/zepto.min.js","scripts/fun.js","scripts/content.js"],
+	  "css": ["styles/main.css"]
+    }
+  ],
+  "web_accessible_resources": ["scripts/zepto.min.js","scripts/popup.js"],
+  "permissions": [
+	"management",
+	"webRequest",
+	"notifications",
+	"storage",
+	"downloads",
+	"tabs",
+    "https://www.google.com/maps/*",
+	"https://www.google.com/search*",
+	"https://www.google.com.hk/search*",
+	"https://map.baidu.com/*"
+  ]
+
+}

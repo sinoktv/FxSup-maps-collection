@@ -1,0 +1,21 @@
+{
+	"app_description": {"message": "Google Maps Search business address collection is exported as CSV."},
+	"title_start_snf": {"message": "start snf"},
+	"titlestartsnf": {"message": "Map collection business"},
+	"PageFilePopup": {"message": "popup_en.html"},
+	"ContentTextRefresh": {"message": "Refresh"},
+	"ContentTextExport": {"message": "Export"},
+	"ContentTextClean": {"message": "Clean"},
+	"ContentTextClose": {"message": "Hide"},
+	"ContentTableId": {"message": "Id"},
+	"ContentTableName": {"message": "Name"},
+	"ContentTableName2": {"message": "Nickname"},
+	"ContentTablePhone": {"message": "Phone"},
+	"ContentTableWeb": {"message": "Web"},
+	"ContentTableRegion": {"message": "Region"},
+	"ContentTableAddress": {"message": "Address"},
+	"ContentTableType": {"message": "Type"},
+	"ContentSaveAsFile": {"message": "Save as CSV File name: "},
+	"ContentTableNodata": {"message": "no data"},
+	"PopupTitleNotUrl": {"message": "Only runs on maps"}
+}

@@ -1,0 +1,21 @@
+{
+	"App_description": {"message": "地图搜索商家地址收集导出为CSV。"},
+	"title_start_snf": {"message": "开启监测"},
+	"titlestartsnf": {"message": "收集地图商家"},
+	"PageFilePopup": {"message": "popup.html"},
+	"ContentTextRefresh": {"message": "刷新"},
+	"ContentTextExport": {"message": "导出CSV"},
+	"ContentTextClean": {"message": "清空"},
+	"ContentTextClose": {"message": "关闭表格"},
+	"ContentTableId": {"message": "编号"},
+	"ContentTableName": {"message": "名称"},
+	"ContentTableName2": {"message": "昵称"},
+	"ContentTablePhone": {"message": "电话"},
+	"ContentTableWeb": {"message": "网站"},
+	"ContentTableRegion": {"message": "地区"},
+	"ContentTableAddress": {"message": "地址"},
+	"ContentTableType": {"message": "类型"},
+	"ContentSaveAsFile": {"message": "导出保存CSV文件名为: "},
+	"ContentTableNodata": {"message": "未有收集到数据，请开启收集后搜索"},
+	"PopupTitleNotUrl": {"message": "只能运行在MAPS里"}
+}

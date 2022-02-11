@@ -1,0 +1,15 @@
+#fxsup_div_p{
+	width:400px;height:200px;top:200px;left:400px;margin-left:0px;min-height:100px;background-color:aliceblue;position:absolute;overflow:auto;border-width:2px;border-style:dashed;
+	cursor:move;
+	opacity: 0.85;border-color:red;
+}
+#fxsup_div_p span{
+	color:#4357c1;font-weight:bold;font-size:1.3em;
+}
+#fxsup_div_p img{
+	margin-top:6px;margin-left:4px;
+	cursor:pointer;
+}
+#fxsup_table_p tr td{
+	padding:4px;
+}
