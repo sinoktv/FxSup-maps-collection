@@ -53,7 +53,7 @@ function canvsGen() {
 	let ContentTextClean = chrome.i18n.getMessage("ContentTextClean");
 	let ContentTextClose = chrome.i18n.getMessage("ContentTextClose");
 	var button_html = "";
-		button_html = "&nbsp;&nbsp;<span>FxSup Maps collection</span>&nbsp;&nbsp;"+
+		button_html = "&nbsp;&nbsp;<span>FxSup maps collection</span>&nbsp;&nbsp;"+
 		"<img id=\"fxsup_acRun\" src=\""+img_ROTATE+"\" alt=\""+ContentTextRefresh+"\" title=\""+ContentTextRefresh+"\"/>&nbsp;"
 		+"<img id=\"fxsup_acExport\" src=\""+img_SAVE+"\" alt=\""+ContentTextExport+"\" title=\""+ContentTextExport+"\"/>&nbsp;"
 		+"<img id=\"fxsup_acClean\" src=\""+img_DELETE+"\" alt=\""+ContentTextClean+"\" title=\""+ContentTextClean+"\"/>&nbsp;"
