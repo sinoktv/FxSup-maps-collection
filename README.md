@@ -1,4 +1,6 @@
 # FxSup-maps-collection
+Mozilla Add-ons:FxSup Maps collection 地图信息收集 0.1
+<br/>
 Maps search business address collection is exported as CSV.
 <br/>
 搜索地图商家信息收集导出为CSV，支持GOOGLE地图与百度地图
