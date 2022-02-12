@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "name": "FxSup Maps collection 地图信息收集",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Maps search business address collection is exported as CSV.搜索地图商家信息收集导出为CSV，支持GOOGLE地图与百度地图。",
   "default_locale": "en",
-  "homepage_url": "https://www.baidu.com",
+  "homepage_url": "https://github.com/sinoktv/FxSup-maps-collection",
   "icons": {
     "16": "images/icon-16.png",
     "48": "images/icon-48.png",
