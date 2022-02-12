@@ -1,5 +1,7 @@
 # FxSup-maps-collection
-Mozilla Add-ons:FxSup Maps collection 地图信息收集 0.1
+Mozilla Add-ons:FxSup Maps collection 地图信息收集 0.2
+<br/>
+Add-ons download url:<a href="https://addons.mozilla.org/en-US/firefox/addon/fxsup-maps-collection/">https://addons.mozilla.org/en-US/firefox/addon/fxsup-maps-collection/</a>
 <br/>
 Maps search business address collection is exported as CSV.
 <br/>
