@@ -1,21 +1,90 @@
 {
-	"App_description": {"message": "地图搜索商家地址收集导出为CSV。"},
-	"title_start_snf": {"message": "开启监测"},
-	"titlestartsnf": {"message": "收集地图商家"},
-	"PageFilePopup": {"message": "popup.html"},
-	"ContentTextRefresh": {"message": "刷新"},
-	"ContentTextExport": {"message": "导出CSV"},
-	"ContentTextClean": {"message": "清空"},
-	"ContentTextClose": {"message": "关闭表格"},
-	"ContentTableId": {"message": "编号"},
-	"ContentTableName": {"message": "名称"},
-	"ContentTableName2": {"message": "昵称"},
-	"ContentTablePhone": {"message": "电话"},
-	"ContentTableWeb": {"message": "网站"},
-	"ContentTableRegion": {"message": "地区"},
-	"ContentTableAddress": {"message": "地址"},
-	"ContentTableType": {"message": "类型"},
-	"ContentSaveAsFile": {"message": "导出保存CSV文件名为: "},
-	"ContentTableNodata": {"message": "未有收集到数据，请开启收集后搜索"},
-	"PopupTitleNotUrl": {"message": "只能运行在MAPS里"}
+  "app_description": {
+    "message": "搜索地图商家信息收集导出为 CSV，支持 Google 地图与百度地图。",
+    "description": "扩展描述"
+  },
+  "titlestartsnf": {
+    "message": "地图商家信息收集",
+    "description": "扩展标题"
+  },
+  "PageFilePopup": {
+    "message": "html/popup_zh_CN.html",
+    "description": "弹出页面 HTML 文件路径"
+  },
+  "ContentTextRefresh": {
+    "message": "刷新",
+    "description": "刷新按钮文本"
+  },
+  "ContentTextExport": {
+    "message": "导出",
+    "description": "导出按钮文本"
+  },
+  "ContentTextClean": {
+    "message": "清空",
+    "description": "清空按钮文本"
+  },
+  "ContentTextClose": {
+    "message": "隐藏",
+    "description": "关闭按钮文本"
+  },
+  "ContentTableId": {
+    "message": "序号",
+    "description": "表格列标题 - 序号"
+  },
+  "ContentTableName": {
+    "message": "名称",
+    "description": "表格列标题 - 名称"
+  },
+  "ContentTableName2": {
+    "message": "本地名称",
+    "description": "表格列标题 - 本地名称"
+  },
+  "ContentTablePhone": {
+    "message": "电话",
+    "description": "表格列标题 - 电话"
+  },
+  "ContentTableWeb": {
+    "message": "网站",
+    "description": "表格列标题 - 网站"
+  },
+  "ContentTableRegion": {
+    "message": "地区",
+    "description": "表格列标题 - 地区"
+  },
+  "ContentTableAddress": {
+    "message": "地址",
+    "description": "表格列标题 - 地址"
+  },
+  "ContentTableType": {
+    "message": "类别",
+    "description": "表格列标题 - 类别"
+  },
+  "ContentSaveAsFile": {
+    "message": "保存为 CSV 文件名：",
+    "description": "保存 CSV 文件的提示"
+  },
+  "ContentTableNodata": {
+    "message": "暂无数据",
+    "description": "表格无数据时的提示"
+  },
+  "PopupTitleNotUrl": {
+    "message": "仅在 Google 地图或百度地图页面可用",
+    "description": "不在有效地图页面时的提示"
+  },
+  "PopupShowTable": {
+    "message": "显示数据表格",
+    "description": "显示表格按钮文本"
+  },
+  "PopupSaveTable": {
+    "message": "导出为 CSV",
+    "description": "导出按钮文本"
+  },
+  "PopupCleanTable": {
+    "message": "清空数据",
+    "description": "清空按钮文本"
+  },
+  "PopupStartCollection": {
+    "message": "开始采集",
+    "description": "开始采集复选框标签"
+  }
 }

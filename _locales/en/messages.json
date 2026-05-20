@@ -1,21 +1,90 @@
 {
-	"app_description": {"message": "Google Maps Search business address collection is exported as CSV."},
-	"title_start_snf": {"message": "start snf"},
-	"titlestartsnf": {"message": "Map collection business"},
-	"PageFilePopup": {"message": "popup_en.html"},
-	"ContentTextRefresh": {"message": "Refresh"},
-	"ContentTextExport": {"message": "Export"},
-	"ContentTextClean": {"message": "Clean"},
-	"ContentTextClose": {"message": "Hide"},
-	"ContentTableId": {"message": "Id"},
-	"ContentTableName": {"message": "Name"},
-	"ContentTableName2": {"message": "Nickname"},
-	"ContentTablePhone": {"message": "Phone"},
-	"ContentTableWeb": {"message": "Web"},
-	"ContentTableRegion": {"message": "Region"},
-	"ContentTableAddress": {"message": "Address"},
-	"ContentTableType": {"message": "Type"},
-	"ContentSaveAsFile": {"message": "Save as CSV File name: "},
-	"ContentTableNodata": {"message": "no data"},
-	"PopupTitleNotUrl": {"message": "Only runs on maps"}
+  "app_description": {
+    "message": "Maps search business address collection is exported as CSV. Support Google Maps and Baidu Maps.",
+    "description": "Extension description"
+  },
+  "titlestartsnf": {
+    "message": "Map Collection Business",
+    "description": "Extension title"
+  },
+  "PageFilePopup": {
+    "message": "html/popup_en.html",
+    "description": "Popup HTML file path"
+  },
+  "ContentTextRefresh": {
+    "message": "Refresh",
+    "description": "Refresh button text"
+  },
+  "ContentTextExport": {
+    "message": "Export",
+    "description": "Export button text"
+  },
+  "ContentTextClean": {
+    "message": "Clean",
+    "description": "Clean button text"
+  },
+  "ContentTextClose": {
+    "message": "Hide",
+    "description": "Close button text"
+  },
+  "ContentTableId": {
+    "message": "ID",
+    "description": "Table column header - ID"
+  },
+  "ContentTableName": {
+    "message": "Name",
+    "description": "Table column header - Name"
+  },
+  "ContentTableName2": {
+    "message": "Local Name",
+    "description": "Table column header - Local Name"
+  },
+  "ContentTablePhone": {
+    "message": "Phone",
+    "description": "Table column header - Phone"
+  },
+  "ContentTableWeb": {
+    "message": "Website",
+    "description": "Table column header - Website"
+  },
+  "ContentTableRegion": {
+    "message": "Region",
+    "description": "Table column header - Region"
+  },
+  "ContentTableAddress": {
+    "message": "Address",
+    "description": "Table column header - Address"
+  },
+  "ContentTableType": {
+    "message": "Category",
+    "description": "Table column header - Category"
+  },
+  "ContentSaveAsFile": {
+    "message": "Save as CSV File name:",
+    "description": "Prompt for saving CSV file"
+  },
+  "ContentTableNodata": {
+    "message": "No data available",
+    "description": "Message when no data in table"
+  },
+  "PopupTitleNotUrl": {
+    "message": "Only works on Google Maps or Baidu Maps pages",
+    "description": "Message when not on a valid map page"
+  },
+  "PopupShowTable": {
+    "message": "Show Data Table",
+    "description": "Show table button text"
+  },
+  "PopupSaveTable": {
+    "message": "Export to CSV",
+    "description": "Export button text"
+  },
+  "PopupCleanTable": {
+    "message": "Clear Data",
+    "description": "Clear button text"
+  },
+  "PopupStartCollection": {
+    "message": "Start Collection",
+    "description": "Start collection checkbox label"
+  }
 }
