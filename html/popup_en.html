@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FxSup Maps Collection</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    
+    h2 {
+      margin: 0 0 15px 0;
+      color: #333;
+      font-size: 16px;
+      text-align: center;
+    }
+    
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    
+    button {
+      padding: 8px 12px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4285f4;
+      color: white;
+      cursor: pointer;
+      font-size: 13px;
+      transition: background-color 0.2s;
+    }
+    
+    button:hover:not(:disabled) {
+      background-color: #3367d6;
+    }
+    
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    
+    .checkbox-group {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+    }
+    
+    .checkbox-group label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+    }
+    
+    .checkbox-group input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+    }
+    
+    .info {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h2 id="popupTitle">Map Collection</h2>
+  
+  <div class="button-group">
+    <button id="showTable">Show Data Table</button>
+    <button id="saveTable">Export to CSV</button>
+    <button id="cleanTable">Clear Data</button>
+  </div>
+  
+  <div class="checkbox-group">
+    <label>
+      <input type="checkbox" id="start_snf">
+      <span id="startLabel">Start Collection</span>
+    </label>
+  </div>
+  
+  <div class="info">
+    <p id="infoText">Works with Google Maps and Baidu Maps</p>
+  </div>
+
+  <script src="../scripts/zepto.min.js"></script>
+  <script type="module" src="../src/popup.js"></script>
+</body>
+</html>

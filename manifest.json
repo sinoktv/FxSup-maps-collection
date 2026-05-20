@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "FxSup Maps collection 地图信息收集",
-  "version": "0.2",
-  "description": "Maps search business address collection is exported as CSV.搜索地图商家信息收集导出为CSV，支持GOOGLE地图与百度地图。",
+  "name": "__MSG_titlestartsnf__",
+  "version": "1.0.0",
+  "description": "__MSG_app_description__",
   "default_locale": "en",
   "homepage_url": "https://github.com/sinoktv/FxSup-maps-collection",
   "icons": {
@@ -12,37 +12,45 @@
     "128": "images/icon-128.png"
   },
   "browser_action": {
-	"default_popup": "html/__MSG_PageFilePopup__",
+    "default_popup": "__MSG_PageFilePopup__",
     "default_icon": {
       "16": "images/icon-16.png",
       "48": "images/icon-48.png",
       "96": "images/icon-96.png",
       "128": "images/icon-128.png"
     },
-	"default_title": "__MSG_titlestartsnf__"
+    "default_title": "__MSG_titlestartsnf__"
   },
   "background": {
-    "scripts": ["scripts/background.js"]
+    "scripts": ["src/utils/helpers-legacy.js", "src/background.js"],
+    "type": "module"
   },
   "content_scripts": [
     {
-      "matches":["https://www.google.com/maps/*","https://www.google.com.hk/maps/*","https://map.baidu.com/*"],
-      "js":["scripts/zepto.min.js","scripts/fun.js","scripts/content.js"],
-	  "css": ["styles/main.css"]
+      "matches": [
+        "https://www.google.com/maps/*",
+        "https://www.google.com.hk/maps/*",
+        "https://map.baidu.com/*"
+      ],
+      "js": ["scripts/zepto.min.js", "src/utils/helpers-legacy.js", "src/content.js"],
+      "css": ["styles/main.css"],
+      "run_at": "document_end"
     }
   ],
-  "web_accessible_resources": ["scripts/zepto.min.js","scripts/popup.js"],
+  "web_accessible_resources": [
+    "scripts/zepto.min.js",
+    "html/*.html"
+  ],
   "permissions": [
-	"management",
-	"webRequest",
-	"notifications",
-	"storage",
-	"downloads",
-	"tabs",
+    "management",
+    "webRequest",
+    "notifications",
+    "storage",
+    "downloads",
+    "tabs",
     "https://www.google.com/maps/*",
-	"https://www.google.com/search*",
-	"https://www.google.com.hk/search*",
-	"https://map.baidu.com/*"
+    "https://www.google.com/search*",
+    "https://www.google.com.hk/search*",
+    "https://map.baidu.com/*"
   ]
-
 }
